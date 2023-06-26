@@ -1,0 +1,145 @@
+
+// //Test connect
+//2. new intance from class Connect
+// $c = new Connect();
+
+// // //3. Call a function
+// $c->connectToMySQL();
+
+$e = new Connect();
+$e->connectToPDO();
+
+//4. Write your sql query string
+//Option 1: Mysqli
+
+//5.
+ //$result = $dblink->query(sql query)
+
+//6.1 count numbers of row (result)
+//$result-> num_rows
+
+//6.2 fetch data
+//- base on column name:
+ //$result->fetch_assoc()
+//- base on column index:
+// $result->fetch_row()
+//Option 2: PDO
+//4.1  sql query
+ ?
+ :var
+
+//5.  prepare statement to MYSQL
+$re = $dblink->prepare(sql query)
+
+
+6.1
+if 4.1 use :var
+ex: $re -> bindParam(':var',$a)
+
+
+7. to excute your sql query
+$re -> execute()
+
+8. fetch data
+8.1 if you wan to get single value
+ex: $row = $re->fetch (PDO::FETCH_BOTH || PDO:: FETCH_ASSOC || PDO::FETCH_COLUMN);
+?>
+
+Session
+-server
+
+Cookie
+-client
+
+<!-- PRODUCT -->
+    <!-- <div class="product-container">
+        <h2 id="smartphone" class="p2">Smartphones</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/iphone14.jpg" width="50%">
+                <h4>Iphone 14</h4>
+                <p>______</p>
+                <p>39000000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/SSGNote10.jpg"width="50%">
+                <h4>Samsung Galaxy Note 10</h4>
+                <p>______</p>
+                <p>5000000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/OppoReno5G.png"width="50%">
+                <h4>Oppo Reno5 5G</h4>
+                <p>______</p>
+                <p>7000000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Xiaomi-Redmi-10.jpg"width="50%">
+                <h4>Xiaomi Redmi 10</h4>
+                <p>______</p>
+                <p>7900000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Sony-Xperia-5-III.jpg"width="50%">
+                <h4>Sony Xperia 5 III</h4>
+                <p>______</p>
+                <p>9900000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/ip14promax.jpg"width="50%">
+                <h4>Iphone 14 Pro Max</h4>
+                <p>______</p>
+                <p>49900000&#8363</p></a>
+            </div>
+        </div>
+    </div>
+    <h2 id="laptop" class="p2">Laptop</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Acer-Aspire-3.webp" width="50%">
+                <h4>Acer Aspire 3</h4>
+                <p>______</p>
+                <p>16900000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Acer-Nitro-5-Eagle.webp"width="50%">
+                <h4>Acer Nitro 5 Eagle</h4>
+                <p>______</p>
+                <p>20900000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/ALIENWARE-M15-R6.webp"width="50%">
+                <h4> Dell Alienware M15 R6</h4>
+                <p>______</p>
+                <p>42500000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/HP-Pavilion-15.webp"width="50%">
+                <h4>HP Pavilion 15</h4>
+                <p>______</p>
+                <p>22500000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Dell-Inspiron-15.webp"width="50%">
+                <h4>Dell Inspiron 15</h4>
+                <p>______</p>
+                <p>14500000&#8363</p></a>
+            </div>
+
+            <div class="col-4">
+                <a href="#"><img class="imgtech" src ="../images/Dell-Vostro-5620.webp"width="50%">
+                <h4>Dell Vostro 5620</h4>
+                <p>______</p>
+                <p>23500000&#8363</p></a>
+            </div>
+        </div>
+        </div> -->
